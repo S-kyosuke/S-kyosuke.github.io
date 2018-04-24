@@ -1,0 +1,105 @@
+/* class指定の場合先に「.」を付けるんやで*/
+/* bodyの指定*/
+body {
+  font-family: "Avenir Next";
+}
+/* bodyの指定*/
+
+/* liの指定*/
+li {
+  list-style: none;
+}
+/* liの指定*/
+
+/* headerの指定*/
+.header {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 90px;
+  width: 1500px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  color: #D3D3D3;
+  float: left;
+  padding: 33px 20px;
+}
+/* headerの指定*/
+
+/* mainコンテンツの指定*/
+.main {
+  /* background-colorの指定を消してください */
+  background-color: #FFFFFF;
+  /* heightの指定を消してください */
+  height: 600px;
+  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
+}
+
+.main-copy-container p {
+  /* background-colorの指定を消してください */
+  color: #000000;
+  /* heightの指定を消してください */
+  height: 1px;
+  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
+}
+
+.main-copy-container h1 {
+  /* background-colorの指定を消してください */
+  color: #000000;
+  /* heightの指定を消してください */
+  height: 600px;
+  /* 上下のpaddingを100px、左右のpaddingを80pxにしてください */
+}
+.main-copy-container img {
+	width:960px; height:500px;	/*トップページのヘッダ画像の表示サイズを指定*/
+	margin-top: -700px;
+	margin-left: 100px;
+	margin-bottom: 100px;	
+}
+
+/* mainコンテンツの指定*/
+
+
+/* footerコンテンツの指定*/
+.footer {
+  background-color: #000000;
+  color: #fff;
+  height: 120px;
+  width: 1500px;
+}
+
+.footer p1{
+  float: left;
+  padding: 50px 70px ;
+  
+}
+
+.footer p2{
+  float: right;
+  padding: 50px 600px;
+}
+
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+/* footerコンテンツの指定*/

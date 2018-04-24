@@ -1,0 +1,99 @@
+/* class指定の場合先に「.」を付けるんやで*/
+/* bodyの指定*/
+body {
+  font-family: "Avenir Next";
+}
+/* bodyの指定*/
+
+/* liの指定*/
+li {
+  list-style: none;
+}
+/* liの指定*/
+
+/* headerの指定*/
+.header {
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 90px;
+  width: 1200px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  color: #FFFFFF;
+  float: left;
+  padding: 33px 20px;
+}
+/* headerの指定*/
+
+/* mainコンテンツの指定*/
+.media {
+    background: #FFF;
+    padding: 10px;
+    overflow: hidden;
+}
+.media__image {
+    width: 1000px; 
+    height:800px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -550px;	
+	margin-bottom: 100px;
+
+}
+.media__summary {
+    overflow: hidden;
+    float: right;
+}
+.media__heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* mainコンテンツの指定*/
+
+
+/* footerコンテンツの指定*/
+.footer {
+  background-color: #000000;
+  color: #fff;
+  height: 120px;
+  width: 1200px;
+}
+
+.footer p1{
+  float: left;
+  padding: 50px 70px ;
+  
+}
+
+.footer p2{
+  float: right;
+  padding: 50px 600px;
+}
+
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+  width: 190px;
+}
+
+.footer-list li {
+  padding-bottom: 10px;
+}
+/* footerコンテンツの指定*/
