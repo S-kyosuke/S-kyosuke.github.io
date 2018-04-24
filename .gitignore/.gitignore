@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+	<link rel="stylesheet" type="text/css" href="stylesheet_main.css">
+ 	<meta charset="UTF-8">
+ 	<title>Garden of Tails.</title>
+ </head>
+ <body>
+	 <div class="header"><!--ヘッダーはじめ-->
+      <div class="header-logo">Garden of Tails</div>
+      <div class="header-list">
+        <ul>
+          <li id="main">物語の園について</li>
+          <li>物語一覧</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+    </div><!--ヘッダー終わり-->
+      <div class="main"><!--メインコンテンツ部分-->
+      <div class="main-copy-container">
+	<h1 class=class="main-copy-container">これは、ぼくの物語だ。</h1><!--大見出し-->
+	<p><img src="KingdomOfWakanda.jpg" alt=サイトイメージ></p>
+	<p id="main">これは、ぼくの物語だ。</p><!--小見出し。-->
+	  </div>
+	  </div><!--メインコンテンツ部分終わり-->
+	 <div class="footer"><!--フッター頭-->
+      <div class="footer-logo">Garden of Tails</div>
+      <div class="footer-list">
+        <ul>
+          <p><a href="novel.html#section1">This is my story</a></p><!--アンカータグとhref属性。リンクの構文の事-->
+          <li>八畳一間寓話体系</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </div>
+    </div><!--フッター終わり-->
+ </body>
+</html>
